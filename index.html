@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak the Truth</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="main">
+        <h1>Speak the Truth</h1>
+
+        <div class="container">
+            <div class="question-container">
+                <h2>🤔</h2>
+                <p>Are you a fool?</p>
+            </div>
+            <button class="joke-button" id="yesButton">Yes</button>
+            <button class="joke-button" id="noButton">No</button>
+
+            <div class="follow-up" id="followUp" style="display: none;">
+                <p>Why are you a fool?</p>
+                <input type="text" id="reasonInput" placeholder="Explain here..." />
+                <button class="joke-button" id="submitReason">Submit</button>
+            </div>
+
+            <div class="funny-message" id="funnyMessage" style="display: none;">
+                <p>😂 You're truly a fool, but at least you're honest!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
